@@ -1,8 +1,8 @@
 node_modules
-
-#Hardhat files
-cache
-artifacts
-
-# Custom testing
-testing/
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist

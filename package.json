@@ -1,14 +1,21 @@
 {
-  "name": "hardhat-project",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.2",
-    "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "chai": "^4.3.4",
-    "ethereum-waffle": "^3.3.0",
-    "ethers": "^5.1.2",
-    "hardhat": "^2.2.0"
+    "autoprefixer": "^10.4.13",
+    "nuxt": "^3.2.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
   },
   "dependencies": {
-    "@openzeppelin/contracts-ethereum-package": "^3.0.0"
+    "eventsource-parser": "^0.1.0",
+    "openai": "^3.2.1",
+    "stream": "^0.0.2"
   }
 }
